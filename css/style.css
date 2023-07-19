@@ -224,6 +224,7 @@ body {
 .menu .row .menu-card .menu-card-image {
     max-width: 35rem;
     max-height: 35rem;
+    width: 100%;
     border-radius: 10%;
 }
 
