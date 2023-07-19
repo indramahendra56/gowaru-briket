@@ -159,7 +159,7 @@ body {
 .about h2, .menu h2 {
     text-align: center;
     font-size: 2rem;
-    margin-bottom: 3rem;
+    margin-bottom: 10.5rem;
 }
 
 .about h2 span, .menu h2 span {
@@ -176,10 +176,10 @@ body {
 }
 
 .about .row .about-img img {
-    max-width: 40rem;
-    max-height: 40rem;
+    max-width: 35rem;
+    max-height: 35rem;
     width: 100%;
-    border-radius: 30%;
+    border-radius: 20%;
 }
 
 .about .row .content {
@@ -214,8 +214,30 @@ body {
     line-height: 1.6;
 }
 
+.menu .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5rem;
+    justify-content: center;
+}
 
+.menu .row .menu-card .menu-card-image {
+    max-width: 35rem;
+    max-height: 35rem;
+    border-radius: 10%;
+}
 
+.menu-card {
+    text-align: center;
+}
+
+.menu .row .menu-card .menu-card-title {
+    margin: 1.5rem auto 1rem;
+}
+
+.menu .row .menu-card .menu-card-price {
+    margin-top: ;
+}
 
 /* Media Queries */
 
